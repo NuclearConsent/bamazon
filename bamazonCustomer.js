@@ -82,7 +82,6 @@ function makePurchase(product, quantity) {
 
 // Check if product is in inventory
 function checkInventory(choiceId, inventory) {
-  console.log("Checking Inventory");
   for (var i = 0; i < inventory.length; i++) {
     if (inventory[i].item_id === choiceId) {
       // Return the product if match
